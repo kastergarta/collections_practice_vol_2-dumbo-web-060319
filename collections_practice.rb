@@ -8,10 +8,11 @@ end
 
 
 def contain_a(array)
-  i = []
-  array.each do |element|
+  m = []
+  array.each do |ele|
     container << element if element.include?("a")
   end
-  return i
+  return m
 end
+
 
