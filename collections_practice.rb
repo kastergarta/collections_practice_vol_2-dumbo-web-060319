@@ -4,4 +4,4 @@ def begins_with_r(array)
     i = false if element[0] != "r"
   end
   return i
-end co
+end
