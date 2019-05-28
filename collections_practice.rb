@@ -45,3 +45,16 @@ def count_elements(array)
     end
   end.uniq
 end
+
+def merge_data(arr1, arr2)
+  arr2[0].map do |name, hash|
+    new_hash = {}
+    arr1.each do |new_attr_hash|
+      if new_attr_hash[:first_name] == name
+        new_hash = prop_hash.merge(new_attr_hash)
+      end
+    end
+    new_hash
+  end
+end
+
