@@ -10,7 +10,7 @@ end
 def contain_a(array)
   m = []
   array.each do |ele|
-    container << ele if ele.include?("a")
+    m << ele if ele.include?("a")
   end
   return m
 end
