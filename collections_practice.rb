@@ -17,9 +17,9 @@ end
 
 def wa(array)
   first_wa = nil
-  array.each do |element|
-    if element.match(/wa/)
-      first_wa = element
+  array.each do |ele|
+    if ele.match(/wa/)
+      first_wa = ele
       break
     end
   end
