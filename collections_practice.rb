@@ -18,7 +18,7 @@ end
 def wa(array)
   first_wa = nil
   array.each do |ele|
-    if ele.match?(/wa/)
+    if ele.match("wa")
       first_wa = ele
       break
     end
