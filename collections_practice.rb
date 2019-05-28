@@ -54,14 +54,14 @@ def merge_data(arr1, arr2)
         new_prop_hash = prop_hash.merge(new_attr_hash)
       end
     end
-    new_prop_hash
+    return new_prop_hash
   end
 end
 
 def find_cool(array)
-  container = []
-  array.each do |element|
-    container << element if element[:temperature] == "cool"
+  i = []
+  array.each do |ele|
+    i << ele if element[:temperature] == "cool"
   end
-  container
+  return i
 end
