@@ -15,7 +15,7 @@ def contain_a(array)
   return m
 end
 
-def wa(array)
+def  first_wa(array)
   first_wa = nil
   array.each do |ele|
     if ele.match("wa")
