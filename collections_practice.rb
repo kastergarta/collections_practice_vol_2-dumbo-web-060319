@@ -15,4 +15,13 @@ def contain_a(array)
   return m
 end
 
-
+def wa(array)
+  first_wa = nil
+  array.each do |element|
+    if element.match(/wa/)
+      first_wa = element
+      
+    end
+  end
+  first_wa
+end
