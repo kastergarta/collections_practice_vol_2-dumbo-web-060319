@@ -23,5 +23,5 @@ def wa(array)
       break
     end
   end
-  first_wa
+  return first_wa
 end
