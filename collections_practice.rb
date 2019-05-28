@@ -25,3 +25,11 @@ def  first_wa(array)
   end
   return first_wa
 end
+
+def remove_non_strings(array)
+  i = []
+  array.each do |ele|
+    i << ele if ele.is_a?(String)
+  end
+  return i
+end
