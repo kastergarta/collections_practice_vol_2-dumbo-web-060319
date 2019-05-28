@@ -8,10 +8,10 @@ end
 
 
 def contain_a(array)
-  container = []
+  i = []
   array.each do |element|
     container << element if element.include?("a")
   end
-  container
+  return i
 end
 
