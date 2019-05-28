@@ -20,7 +20,7 @@ def wa(array)
   array.each do |element|
     if element.match(/wa/)
       first_wa = element
-      
+      break
     end
   end
   first_wa
