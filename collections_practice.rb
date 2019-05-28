@@ -54,7 +54,7 @@ def merge_data(arr1, arr2)
         new_prop_hash = prop_hash.merge(new_attr_hash)
       end
     end
-    return new_prop_hash
+    new_prop_hash
   end
 end
 
